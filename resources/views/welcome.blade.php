@@ -8,8 +8,9 @@ Welcome!
 @section('content')
 
 @include('includes.message-block')
-
+<div class="col-md-1"></div>
 <div class="row">
+
     <div class="col-md-6">
         <h3>Sign Up</h3>
         <form action="{{ route('signup')}}" method="post">
